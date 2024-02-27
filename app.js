@@ -34,6 +34,6 @@ app.post("/", function(req, res){
 })
 
 
-app.listen(443, function(){
+app.listen(0, function(){
   console.log("Server is running on port 3000.");
 });
